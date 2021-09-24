@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 142-0701-801
+D RF connector
+K connector
+$ENDCMP
+#
+$CMP TQP5527
+F https://www.qorvo.com/products/d/da005626
+$ENDCMP
+#
+#End Doc Library
