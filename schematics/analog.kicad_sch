@@ -1,0 +1,86 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 0b27087f-6b07-4f65-b536-97c9972f64c1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 200.66 69.85) (xy 204.47 69.85))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 99f21bc9-642e-4eae-be9d-406bea0ad5d4)
+  )
+  (wire (pts (xy 227.33 69.85) (xy 231.14 69.85))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bf3a3e0d-b2b3-4929-be0b-c0f83663ebdf)
+  )
+
+  (label "DAC_OUT" (at 200.66 69.85 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 9c47d6b5-d329-43cd-bed3-ff70c9cc042c)
+  )
+  (label "VTUNE" (at 231.14 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3d267fce-5937-4c2c-b5eb-ef56cffd9dd9)
+  )
+
+  (sheet (at 204.47 64.77) (size 22.86 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5679cb92-28a1-46ce-aa54-1952775362de)
+    (property "Sheet name" "3.3V to 10V" (id 0) (at 204.47 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "op_amp_gain.kicad_sch" (id 1) (at 204.47 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "V_TUNE" output (at 227.33 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 35aa5a13-22ec-43a3-98e4-dc60b1e044df)
+    )
+    (pin "DAC_OUT" input (at 204.47 69.85 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9779fdb0-0e42-4f49-b96e-d25f2a28ac1e)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/b1e09ccb-fd00-48fc-9fd3-0743b0839cc6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/c234f244-03e3-4afc-9502-fd0e47ac1803"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/e332d0d8-e317-41ce-9605-2ed570781c86"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/0138e4b3-4221-40d3-8c51-05c914ae2ae8"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/a3dd0132-ba5b-416b-a58a-a66dd5dd02ba"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/082b6d39-1dd7-4062-a955-c2cbd748b9ac"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_01005_0402Metric")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/09f375ce-7233-496c-ba18-37a391f54e4b"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_01005_0402Metric")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/5632d76f-1808-436e-8726-caa24b7bce9d"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_01005_0402Metric")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/6ee71fa2-ce95-4497-92a2-7b2d638a126a"
+      (reference "R?") (unit 1) (value "100") (footprint "Resistor_SMD:R_01005_0402Metric")
+    )
+    (path "/5679cb92-28a1-46ce-aa54-1952775362de/4d918ae5-f8a4-49be-b380-fb6870b7b1e2"
+      (reference "U?") (unit 1) (value "TS971ILT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+  )
+)

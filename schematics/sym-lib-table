@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name "User_library")(type "KiCad")(uri "${KIPRJMOD}/User_library.kicad_sym")(options "")(descr ""))
+  (lib (name "User_library_old")(type "Legacy")(uri "${KIPRJMOD}/User_library.lib")(options "")(descr ""))
 )
