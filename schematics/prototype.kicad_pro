@@ -301,6 +301,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -308,6 +317,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "cc9eb59e-893d-4a47-a21f-db7bcb5963f8",
+      ""
+    ],
+    [
+      "df61f42a-e257-4108-9f44-44396112cf2b",
+      "Rx"
+    ]
+  ],
   "text_variables": {}
 }

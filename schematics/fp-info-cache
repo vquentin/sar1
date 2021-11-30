@@ -1,4 +1,4 @@
-19665895643298197
+19674073910662162
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8139,6 +8139,13 @@ SMB pcb mounting jack
 SMB Jack  Striaght
 0
 5
+2
+Connector_Coaxial
+SMP_conn_50Ohm_Amphenol
+
+
+0
+2
 2
 Connector_Coaxial
 U.FL_Hirose_U.FL-R-SMT-1_Vertical
@@ -52079,6 +52086,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HMC313E
+SOT23-6
+
+
+0
+6
+6
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -56678,6 +56692,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LTC5552
+MIXER_LTC5553IUDB#TRMPBF
+
+
+0
+13
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -75606,6 +75627,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RF_traces
+-24 dB coupler 5.5 GHz OSHpark 4 layers
+
+
+0
+4
+4
+RF_traces
+HMC431 VCO devboard
+
+
+0
+0
+0
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf

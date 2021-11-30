@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# HMC313E
+#
+DEF HMC313E U 0 40 N N 1 L N
+F0 "U" 100 200 50 H V L BNN
+F1 "HMC313E" 100 100 50 H V L BNN
+F2 "SOT23-6" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "HMC313E" 0 0 50 H I L BNN "VALUE"
+F5 "1127-2932-ND" 0 0 50 H I L BNN "PARTNO"
+DRAW
+P 2 0 0 10 -200 -200 -200 200 N
+P 2 0 0 10 -200 200 200 0 N
+P 2 0 0 10 200 0 -200 -200 N
+X ~ 1 -300 0 100 R 40 40 0 0 B 
+X ~ 3 300 0 100 L 40 40 0 0 B 
+X ~ 2 0 -200 100 U 40 40 0 0 B 
+X ~ 4 0 -200 100 U 40 40 0 0 B 
+X ~ 5 0 -200 100 U 40 40 0 0 B 
+X ~ 6 0 -200 100 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
